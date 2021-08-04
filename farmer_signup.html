@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="landingpage.css" />
+    <script type="text/javascript" src="apiHandler.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ellipse"></div>
+    <div class="header">
+      <img src="logo.jpeg" alt="logo" />
+      <p>LimaSmart</p>
+      <div class="navbar">
+        <ul>
+          <a href="landingPage.html">Home</a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="form-control">
+      <div class="form-header">Farmer Sign Up</div>
+
+      <form id="form" method="post">
+        <label for="fullname">Full Name</label>
+        <input type="text" name="fullname" id="name" class="form-input" />
+        <label for="id-num">National ID Number</label>
+        <input type="number" name="id-num" id="number" class="form-input" />
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" class="form-input" />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="form-input"
+        />
+        <label for="c-pass">Confirm Password</label>
+        <input type="password" name="c-pass" class="form-input" />
+        <input
+          type="submit"
+          value="Sign Up"
+          class="submit"
+          onclick="createUser()"
+        />
+      </form>
+    </div>
+  </body>
+</html>

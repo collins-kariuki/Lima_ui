@@ -1,0 +1,204 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    
+  }
+
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-left p {
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 15px;
+    float: left;
+  }
+ 
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    background-color: darkgreen;
+    width: 100%;
+    font-family:'Poppins', sans-serif;
+    flood-opacity: 5%;
+  }
+
+   .top-right {
+    position: absolute;
+    top: 8px;
+    right: 90px;
+  }
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: darkgreen;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropdown-content {display: block;}  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.navbar{
+    padding-left: 60px;
+    float:right;
+}
+.navbar ul{     
+    text-align:center;
+    background-color: #04AA6D;   
+    list-style: none;
+    display: inline-flex;
+    padding: 10px; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.navbar ul  a{
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+/*second div*/
+  .paragraph{
+    position: relative;
+    text-align: center;
+    color: white;
+        
+  }
+
+  .paragraph p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: #208B3A;
+    padding-left: 15px;
+    float: left;
+    text-align: justify;
+    padding-right: 5px;
+  }
+
+.rectangle{    
+height: 200px;
+width: 100%;
+background-color: white;
+position: relative;
+}
+
+.rectangle1{
+    height: 60px;
+    width: 100%;    
+    background-color: #208B3A;
+    position: relative;
+    border-radius: 22px;
+}
+
+.rectangle1 p{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-left: 15px;
+    float: left;
+    text-align: justify;
+    padding-right: 5px;  
+}
+
+.rectangle2{
+  height: 290px;
+  width: 49%;    
+  background-color: #208B3A;
+  position: relative;
+  float: left;
+  border-radius: 15px;
+} 
+ .rectangle2 p{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  padding-left: 15px;
+  float: left;
+  text-align: justify;
+  padding-right: 5px; 
+ }
+
+ .rectangle3{
+  height: 290px;
+  width: 49%;    
+  background-color: #208B3A;
+  position: relative;
+  float: right; 
+ }
+.rectangle3 p{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+  padding-left: 15px;
+  float: left;
+  text-align: justify;
+  padding-right: 5px; 
+}
+
+.rectangle4{
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: #208B3A;
+}
+.rectangle4 img{
+float:left;
+width: 50px;
+height: 50px
+}
+
+.rectangle4 p{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: darkslategrey;
+  padding-left: 15px;
+  float: left;
+  text-align: justify;
+  padding-right: 5px; 
+}

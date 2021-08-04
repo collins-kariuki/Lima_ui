@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="apiHandler.js"></script>
+    <link rel="stylesheet" href="landingpage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="ellipse"></div>
+    <div class="header">
+      <img src="logo.jpeg" alt="logo" />
+      <p>LimaSmart</p>
+      <div class="top-right">
+        <div class="dropdown">
+          <button class="dropbtn">Menu</button>
+          <div class="dropdown-content">
+            <a href="home.html">Home</a>
+            <a href="soilprofile.html">Soil Samples</a>
+            <a href="cropprediction.html">Crop Prediction</a>
+            <a href="about.html">About Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-control">
+      <div class="form-header">
+        Soil Profile
+        <p>Enter your soil values for:</p>
+      </div>
+
+      <form id="form" method="post">
+        <label for="nitrogen">Nitrogen</label>
+        <input type="number" name="nitrogen" id="n" class="form-input" />
+        <label for="phosphorous">Phosphorous</label>
+        <input type="number" name="phosphorous" id="phos" class="form-input" />
+        <label for="potassium">Potassium</label>
+        <input type="number" name="potassium" id="pot" class="form-input" />
+        <label for="pH">pH</label>
+        <input type="number" name="pH" id="ph" class="form-input" />
+        <input
+          type="submit"
+          value="Submit"
+          class="submite"
+          onclick="predict()"
+        />
+      </form>
+    </div>
+  </body>
+</html>

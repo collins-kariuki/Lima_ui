@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="landingpage.css" />
+    <script type="text/javascript" src="apiHandler.js"></script>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="ellipse"></div>
+    <div class="header">
+      <img src="logo.jpeg" alt="logo" />
+      <p>LimaSmart</p>
+      <div class="navbar">
+        <ul>
+          <a href="landingPage.html">Home</a>
+        </ul>
+      </div>
+    </div>
+
+    <div class="form-control">
+      <div class="form-header">Login</div>
+
+      <form id="form" method="post">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" class="form-input" />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          class="form-input"
+        />
+        <input type="submit" value="Login" class="submit" onclick="login()" />
+      </form>
+
+      <p>
+        To create an account as a farmer
+        <a href="farmer_signup.html">Sign Up</a>
+      </p>
+      <p>
+        To create an account as an agrovet
+        <a href="agrovet_signup.html">Sign Up</a>
+      </p>
+    </div>
+  </body>
+</html>
